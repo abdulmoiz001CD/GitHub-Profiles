@@ -1,0 +1,248 @@
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* html{
+    font-size: 62.5%;
+} */
+
+
+html,body{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+
+/* body{
+    font-size: 1.6rem;
+} */
+
+
+body{
+    background-image: url(backgroundFinal.avif);
+    background-position: center;
+}
+
+#contMz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+
+
+
+#contMz h1{
+    color: aqua;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+
+#formMz{
+    width: 100%;
+    max-width: 60rem;
+}
+
+
+#formMz input{
+   font-size: 1.5rem;
+}
+
+
+.cardMz{
+max-width: 50rem;
+width: 100%;
+min-height: 40vh;
+border: 2px solid white;
+background-color: black;
+border-radius: 2rem;
+padding: 2rem;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
+
+
+
+.upperText{
+ display: flex;
+ justify-content: space-between;
+ color: white;
+ align-items: center;
+
+}
+
+
+.imgControl{
+display: flex;
+gap: 1rem;
+align-items: center;
+}
+
+.imgControl h2{
+    font-size: 1.5rem;
+}
+
+.imgControl h4{
+    font-size: 1.5rem;
+}
+
+
+
+.imgControl img{
+    width: 7rem;
+    height: 7rem;
+   border-radius: 10rem;
+}
+
+
+
+.bioText{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+.bottomText{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+.control h2{
+font-size: 1.5rem;
+}
+
+.control h3{
+    font-size: 2rem;
+}
+
+
+.btn2{
+margin-left:3rem;
+}
+
+
+
+#Loading{
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width:426px){
+
+   #contMz{
+    height: 120vh;
+   }
+    
+#contMz h1{
+    
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+
+    #formMz input{
+        font-size: 1rem;
+     }
+
+     .upperText{
+        flex-direction: column;
+        align-items: start;
+     }
+
+
+    
+
+     #btnMz{
+        width: 20%;
+     }
+
+     .btn2{
+       max-width: 50rem;
+       width: 200%;
+       margin-left: 0;
+       margin-top: 1rem;
+    }
+
+  .imgControl{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:376px){
+    
+    #contMz h1{
+        
+        font-size: 2rem;
+       
+    }
+    
+
+
+    .control h2{
+        font-size: 1rem;
+        }
+        
+        .control h3{
+            font-size: 1.5rem;
+        }
+   
+
+
+    
+    }
+
+
+
+    
+@media screen and (max-width:376px){
+    
+    #contMz h1{
+        
+        font-size: 1.8rem;
+       
+    }
+
+
+    
+.imgControl h4{
+    font-size: 1rem;
+}
+
+    
+    
+
+#btnMz{
+    font-size: 0.8rem;
+ }
+
+    }
